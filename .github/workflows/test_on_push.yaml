@@ -24,7 +24,7 @@ jobs:
       - name: Run tests with coverage
         run: |
           export PYTHONPATH=src
-          coverage run -m unittest src.tests
+          coverage run -m unittest src.test_app
 
       - name: Show coverage report
         run: coverage report
