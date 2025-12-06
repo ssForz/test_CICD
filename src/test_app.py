@@ -2,6 +2,7 @@ import unittest
 import sys
 import os
 
+
 import app as tested_app
 
 class FlaskAppTests(unittest.TestCase):
